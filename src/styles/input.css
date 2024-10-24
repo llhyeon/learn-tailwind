@@ -85,6 +85,32 @@
   .bg-pesto-900 {
     background-color: #1c180a;
   }
+
+  .border-pesto-300 {
+    border-color: #bbaf83;
+  }
+}
+
+body {
+  background: theme("colors.slate.900");
+}
+
+@media screen(sm) {
+  body {
+    background: theme("colors.slate.700");
+  }
+}
+
+@media screen(md) {
+  body {
+    background: theme("colors.slate.500");
+  }
+}
+
+@media screen(lg) {
+  body {
+    background: theme("colors.slate.200");
+  }
 }
 
 /* 스타일 재사용 */

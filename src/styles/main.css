@@ -667,6 +667,10 @@ abbr[title] {
   border-radius: 9999px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .bg-cyan-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(165 243 252 / var(--tw-bg-opacity));
@@ -744,19 +748,37 @@ abbr[title] {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.text-pesto-200 {
-  color: #d1caac;
-}
-
 .text-pesto-300 {
   color: #bbaf83;
 }
 
-.text-pesto-900 {
-  color: #1c180a;
+.border-pesto-300 {
+  border-color: #bbaf83;
 }
 
 /* base 스타일 재구성 */
+
+body {
+  background: #0f172a;
+}
+
+@media (min-width: 640px) {
+  body {
+    background: #334155;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #64748b;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: #e2e8f0;
+  }
+}
 
 /* 스타일 재사용 */
 
