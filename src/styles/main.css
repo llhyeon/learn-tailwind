@@ -588,6 +588,10 @@ abbr[title] {
   }
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -836,10 +840,6 @@ body {
     strong {
       font-size: 1.875rem;
       line-height: 2.25rem;
-    }
-    strong {
-      --tw-text-opacity: 1;
-      color: rgb(55 65 81 / var(--tw-text-opacity));
     }
     p {
       font-size: 1.125rem;
