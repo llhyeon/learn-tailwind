@@ -136,3 +136,19 @@ body {
     }
   }
 }
+
+.state-online {
+  @apply bg-Green-600;
+}
+
+.state-offline {
+  @apply bg-Gray-600;
+}
+
+.state-button {
+  @apply relative bg-[url(/src/assets/face/face3.jpg)] bg-center bg-cover bg-no-repeat size-20 rounded-full;
+
+  .state-text {
+    @apply absolute bottom-0 right-0 size-6 bg-green-300 block rounded-full border-2 border-white;
+  }
+}
