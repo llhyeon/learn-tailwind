@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>아바타 : z-index</title>
+    <link rel="icon" href="/src/assets/favicon/tailwind.svg" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body class="flex justify-center bg-slate-100 p-5 font-suit">
+    <div
+      class="flex w-1/2 items-center rounded-full border border-Green-600 bg-white px-4 py-2 focus-within:border-tertiary-100"
+    >
+      <h1>
+        <a href="/">
+          <span class="sr-only">네이버</span>
+          <span
+            class="bg-green-300 bg-gradient-to-tr from-Green-600 to-Green-300 bg-clip-text text-5xl font-black text-transparent"
+            aria-hidden="true"
+            >N</span
+          >
+        </a>
+      </h1>
+      <form class="contents" action="/" method="get">
+        <div class="flex-1">
+          <label class="sr-only" for="input-1">검색어</label>
+          <input
+            class="mx-2 h-9 w-full bg-transparent px-2 outline-none"
+            type="search"
+            id="input-1"
+            placeholder="검색어를 입력하세요"
+            required
+          />
+        </div>
+        <button
+          class="relative size-6 rounded-full bg-gradient-to-r from-Green-600 to-Green-500 before:absolute before:left-1/2 before:top-1/2 before:size-2 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:bg-white"
+          type="submit"
+          aria-label="검색"
+        ></button>
+      </form>
+    </div>
+  </body>
+</html>
