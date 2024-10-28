@@ -723,6 +723,9 @@ video {
 .w-60 {
   width: 15rem;
 }
+.w-0 {
+  width: 0px;
+}
 .min-w-\[320px\] {
   min-width: 320px;
 }
@@ -840,6 +843,14 @@ video {
 }
 .gap-y-3 {
   row-gap: 0.75rem;
+}
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.gap-x-4 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 .-space-x-20 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -1450,6 +1461,9 @@ video {
   .sm\:flex {
     display: flex;
   }
+  .sm\:contents {
+    display: contents;
+  }
   .sm\:hidden {
     display: none;
   }
@@ -1580,6 +1594,9 @@ video {
   .lg\:ml-auto {
     margin-left: auto;
   }
+  .lg\:block {
+    display: block;
+  }
   .lg\:size-4 {
     width: 1rem;
     height: 1rem;
@@ -1598,6 +1615,12 @@ video {
   }
   .lg\:grid-cols-\[640px_1fr\] {
     grid-template-columns: 640px 1fr;
+  }
+  .lg\:grid-cols-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
   .lg\:flex-row {
     flex-direction: row;
